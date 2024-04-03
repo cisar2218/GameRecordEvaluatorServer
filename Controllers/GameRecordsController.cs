@@ -80,7 +80,7 @@ namespace EvaluatorServer.Controllers
             _context.GameRecords.Add(gameRecord);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetGameRecord", new { id = gameRecord.Id }, gameRecord);
+            return CreatedAtAction(nameof(GetGameRecord), new { id = gameRecord.Id }, gameRecord);
         }
 
         // DELETE: api/GameRecords/5
