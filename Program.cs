@@ -26,3 +26,5 @@ app.UseHttpsRedirection();
 app.MapControllers();
 
 app.Run();
+
+Console.WriteLine("Swagger: https://localhost:7036/swagger/index.html (Port may vary)");
