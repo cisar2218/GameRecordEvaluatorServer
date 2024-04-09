@@ -6,3 +6,6 @@
 
 - Run: `dotnet run --launch-profile https`
 - If Privacy Error, run:  `dotnet dev-certs https --trust`
+
+## Resources
+- [.NET Webapi tutorial](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio-code)
